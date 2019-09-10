@@ -68,56 +68,35 @@
 					<h1>About</h1>
 					<h6>Myself</h6>
 				</div>
-				<p>
-					I am a recent Software Development Graduate with a B.A in Music Technology & Mathematics. I'm well
-					versed in Object-Oriented Design.
-					I have experience in building Web Applications and have countless projects which highlight my
-					skills.
-					I'm passionate about technology and I'm always eager to learn new technologies. I'm open to
-					opportunities in Web, Software Development & Quality Assurance.
+					<div>
+						<p>
+							I am a Software Engineering and Mathematics graduate who is well versed in Object-Oriented Design.
+							I have experience in building Web Applications and have countless projects which highlight my skills.
+							I'm passionate about technology and I'm always eager to learn new technologies. I'm open to
+							opportunities in Web, Software Development & Quality Assurance.
+						</p>
 
-				</p>
-
-				<div class="social-media">
-					<ul class="nav-list">
-						<li>
-							<a class="icon-link">
-								<i class="devicon-java-plain colored" rel="tooltip" title="Java"></i>
-							</a>
-
-						</li>
-						<li>
-							<a class="icon-link">
-								<i class="devicon-javascript-plain colored" rel="tooltip" title="JavaScript"></i>
-							</a>
-						</li>
-						<li>
-							<a class="icon-link">
-								<i class="devicon-nodejs-plain" rel="tooltip" title="Node.js"></i>
-							</a>
-						</li>
-						<li>
-							<a class="icon-link">
-								<i class="devicon-react-original" rel="tooltip" title="React.js"></i>
-							</a>
-						</li>
-						<li>
-							<a class="icon-link">
-								<i class="devicon-angularjs-plain-wordmark colored" rel="tooltip" title="Angular"></i>
-
-
-							</a>
-						</li>
-						<li>
-							<a class="icon-link">
-								<i class="devicon-jquery-plain colored" rel="tooltip" title="Jquery"></i>
-							</a>
-						</li>
-
-
-					</ul>
-
-				</div>
+					</div>
+				<div class="social-media" data-aos="fade-up" data-aos-delay="300">
+						<ul class="nav-list">
+							<!-- <li>
+								<a href="mailto:alexn794@gmail.com" target="_blank" class="icon-link" type="button" role="button">
+									<i class="fa fa-envelope"></i>
+								</a>
+							</li> -->
+							<li>
+								<a href="https://www.linkedin.com/in/alex-nahayo/" target="_blank" class="icon-link" type="button"
+									role="button" rel="tooltip" title="Linked In" >
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://github.com/AlexNahayo/" class="icon-link" target="_blank" type="button" role="button" rel="tooltip" title="github">
+									<i class="fab fa-github"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
 			</div>
 
 
@@ -299,27 +278,21 @@
 				</h1>
 				<h6>Lets work together</h6>
 			</div>
-			<div class="social-media" data-aos="fade-up" data-aos-delay="300">
-				<ul class="nav-list">
-					<li>
-						<a href="mailto:alexn794@gmail.com" class="icon-link" type="button" role="button">
-							<i class="fa fa-envelope"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/alex-nahayo/" class="icon-link" type="button"
-							role="button">
-							<i class="fab fa-linkedin-in"></i>
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/AlexNahayo/" class="icon-link" type="button" role="button">
-							<i class="fab fa-github"></i>
-						</a>
-					</li>
-				</ul>
-
-			</div>
+			<form method="POST" action="https://formspree.io/alexn794@gmail.com">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email" required>
+				<label for="service">Services</label>	
+				<select name="services" id="service">
+					<option value="">General Inquiry</option>
+					<option value="">Web Development</option>
+					<option value="">Web Design</option>
+				</select>
+				<label for="subject" >Subject</label>
+				<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+				<input type="submit" value="Submit">
+			</form>
 		</div>
 	</section>
 
